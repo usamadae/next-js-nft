@@ -21,6 +21,10 @@ body {
   background: #0B0B0B;
 }
 
+h1 , h2 , h3 , h4 , h5 , h6 , p , a{
+  color: white;
+}
+
 .custom_color_blue{
 color: #0D6EFD;
 }
