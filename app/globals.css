@@ -89,6 +89,13 @@ background-position: bottom right;
 }
 
 
+.bg-subscribe{
+  background-image: url('/assets/image/bg-sub.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat ;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

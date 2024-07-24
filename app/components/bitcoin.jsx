@@ -318,6 +318,10 @@ function Bitcoin() {
                         </div>
                     </div>
                 </div>
+
+                <Link href="/">
+                            <button className='bg-[#0D6EFD] text-white text-[28px] mt-24 text-center flex mx-auto border my-5 border-[#0D6EFD] px-5 rounded-[8px] py-2 hover:bg-transparent hover:border hover:border-white'>Go To Marketplace  </button>
+                        </Link>
             </div>
         </>
     )
