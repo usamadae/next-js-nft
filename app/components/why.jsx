@@ -80,14 +80,14 @@ function Why() {
                         </div>
                     </div>
                     <div className="w-[50%]">
-                    <Image className='mx-auto'
-                                    src="/assets/image/why-bg.png"
-   layout="responsive"
-                                    width={38}
-                                    height={38}
+                        <Image className='mx-auto'
+                            src="/assets/image/why-bg.png"
+                            layout="responsive"
+                            width={38}
+                            height={38}
 
-                                    alt="Picture of the author"
-                                />
+                            alt="Picture of the author"
+                        />
                     </div>
                 </div>
             </div>

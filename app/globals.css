@@ -72,6 +72,12 @@ background-position: bottom right;
   background-repeat:no-repeat ;
 }
 
+.bg-number {
+  background-image: url('/assets/image/numberbar.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat ;
+}
 
 
 @layer utilities {
