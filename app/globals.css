@@ -71,7 +71,12 @@ background-position: bottom right;
   background-size: contain;
   background-repeat:no-repeat ;
 }
-
+.bg-product{
+  background-image: url('/assets/image/bg-work.png');
+  background-position: top right;
+  background-size: contain;
+  background-repeat:no-repeat ;
+}
 .bg-number {
   background-image: url('/assets/image/numberbar.jpg');
   background-position: center;

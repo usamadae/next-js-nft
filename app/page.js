@@ -5,6 +5,7 @@ import Work from "./components/work";
 import Why from "./components/why";
 import Numberbar from "./components/number-bar";
 import Product from "./components/product";
+import Bitcoin from "./components/bitcoin";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
 <Why></Why>
 <Numberbar></Numberbar>
 <Product></Product>
+<Bitcoin></Bitcoin>
 
 
 </>
