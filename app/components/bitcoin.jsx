@@ -2,11 +2,19 @@ import React from 'react'
 import Image from "next/image"
 import { Bungee } from "next/font/google";
 import { Lexend_Deca } from 'next/font/google';
+import { Lato } from 'next/font/google';
+import Link from 'next/link';
 const bungee = Bungee({ weight: '400', subsets: ['latin'] });
 
 const lexendDeca = Lexend_Deca({
     subsets: ['latin'], // Specify the subsets you need
 });
+
+
+
+const latoFont = Lato({ weight: '900', subsets: ['latin'] });
+
+const latoFontme = Lato({ weight: '400', subsets: ['latin'] });
 
 function Bitcoin() {
     return (
@@ -24,94 +32,290 @@ function Bitcoin() {
                     </div>
 
                 </div>
-                <div className="flex justify-items-center items-center pt-20">
-                    <div className="w-[25%] px-5" id='borderimg_2'>
-                        <Image className='mx-auto'
-                            src="/assets/image/01.png"
+                <div className="flex justify-items-center gap-7 items-center pt-20">
+                    <div className="w-[14%]">
+                        <div className="flex item-center">
+                            <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
+                                <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
+                            </div>
+                            <div className="w-[40%] pl-5 py-3">
+                                <p className={`${latoFontme.className} text-[14px]`}>300</p>
+                            </div>
+                        </div>
 
-                            width={193}
-                            height={47}
+                        <div className='relative '>
+                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                                src="/assets/image/b-1.png"
+                                layout="responsive"
+                                width={471}
+                                height={47}
 
-                            alt="Picture of the author"
-                        />
-                        <h5 className={`${lexendDeca.className} text-[32px] text-center pt-3`}>Create An Account </h5>
-                        <p className='text-[24px] text-center py-4'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly </p>
-                        <Image className='mx-auto'
-                            src="/assets/image/work-1.png"
+                                alt="Picture of the author"
+                            />
+                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <Link href='/'>
+                                <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
+                            </Link>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <span className={`${latoFont.className} text-[20px] `}>0.045 ETH</span>
+                                </div>
+                                <div>
+                                    <Image className='mx-auto relative z-10 mt-[-10px] '
+                                        src="/assets/image/bit.png"
 
-                            width={118}
-                            height={118}
+                                        width={63}
+                                        height={25}
 
-                            alt="Picture of the author"
-                        />
+                                        alt="Picture of the author"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-[14%]">
+                        <div className="flex item-center">
+                            <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
+                                <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
+                            </div>
+                            <div className="w-[40%] pl-5 py-3">
+                                <p className={`${latoFontme.className} text-[14px]`}>300</p>
+                            </div>
+                        </div>
+
+                        <div className='relative soldout'>
+                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                                src="/assets/image/b-2.png"
+                                layout="responsive"
+                                width={471}
+                                height={47}
+
+                                alt="Picture of the author"
+                            />
+                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <Link href='/'>
+                                <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
+                            </Link>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <span className={`${latoFont.className} text-[20px] `}>0.045 ETH</span>
+                                </div>
+                                <div>
+                                    <Image className='mx-auto relative z-10 mt-[-10px] '
+                                        src="/assets/image/bit.png"
+
+                                        width={63}
+                                        height={25}
+
+                                        alt="Picture of the author"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-[14%]">
+                        <div className="flex item-center">
+                            <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
+                                <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
+                            </div>
+                            <div className="w-[40%] pl-5 py-3">
+                                <p className={`${latoFontme.className} text-[14px]`}>300</p>
+                            </div>
+                        </div>
+
+                        <div className='relative soldout'>
+                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                                src="/assets/image/b-3.png"
+                                layout="responsive"
+                                width={471}
+                                height={47}
+
+                                alt="Picture of the author"
+                            />
+                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <Link href='/'>
+                                <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
+                            </Link>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <span className={`${latoFont.className} text-[20px] `}>0.045 ETH</span>
+                                </div>
+                                <div>
+                                    <Image className='mx-auto relative z-10 mt-[-10px] '
+                                        src="/assets/image/bit.png"
+
+                                        width={63}
+                                        height={25}
+
+                                        alt="Picture of the author"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div className="w-[25%] px-5" id='borderimg_1'>
-                        <Image className='mx-auto pb-4'
-                            src="/assets/image/work-2.png"
+                    <div className="w-[14%]">
+                        <div className="flex item-center">
+                            <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
+                                <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
+                            </div>
+                            <div className="w-[40%] pl-5 py-3">
+                                <p className={`${latoFontme.className} text-[14px]`}>300</p>
+                            </div>
+                        </div>
 
-                            width={118}
-                            height={118}
+                        <div className='relative '>
+                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                                src="/assets/image/b-4.png"
+                                layout="responsive"
+                                width={471}
+                                height={47}
 
-                            alt="Picture of the author"
-                        />
-                        <Image className='mx-auto'
-                            src="/assets/image/02.png"
+                                alt="Picture of the author"
+                            />
+                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <Link href='/'>
+                                <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
+                            </Link>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <span className={`${latoFont.className} text-[20px] `}>0.045 ETH</span>
+                                </div>
+                                <div>
+                                    <Image className='mx-auto relative z-10 mt-[-10px] '
+                                        src="/assets/image/bit.png"
 
-                            width={193}
-                            height={47}
+                                        width={63}
+                                        height={25}
 
-                            alt="Picture of the author"
-                        />
-                        <h5 className={`${lexendDeca.className} text-[32px] text-center pt-3`}>Choose Plans  </h5>
-                        <p className='text-[24px] text-center py-4'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly </p>
-
+                                        alt="Picture of the author"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
+                    <div className="w-[14%]">
+                        <div className="flex item-center">
+                            <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
+                                <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
+                            </div>
+                            <div className="w-[40%] pl-5 py-3">
+                                <p className={`${latoFontme.className} text-[14px]`}>300</p>
+                            </div>
+                        </div>
 
-                    <div className="w-[25%] px-5" id='borderimg_2'>
-                        <Image className='mx-auto'
-                            src="/assets/image/03.png"
+                        <div className='relative '>
+                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                                src="/assets/image/b-5.png"
+                                layout="responsive"
+                                width={471}
+                                height={47}
 
-                            width={193}
-                            height={47}
+                                alt="Picture of the author"
+                            />
+                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <Link href='/'>
+                                <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
+                            </Link>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <span className={`${latoFont.className} text-[20px] `}>0.045 ETH</span>
+                                </div>
+                                <div>
+                                    <Image className='mx-auto relative z-10 mt-[-10px] '
+                                        src="/assets/image/bit.png"
 
-                            alt="Picture of the author"
-                        />
-                        <h5 className={`${lexendDeca.className} text-[32px] text-center pt-3`}>Start Earning   </h5>
-                        <p className='text-[24px] text-center py-4'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly </p>
-                        <Image className='mx-auto'
-                            src="/assets/image/work-3.png"
+                                        width={63}
+                                        height={25}
 
-                            width={118}
-                            height={118}
-
-                            alt="Picture of the author"
-                        />
+                                        alt="Picture of the author"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
+                    <div className="w-[14%]">
+                        <div className="flex item-center">
+                            <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
+                                <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
+                            </div>
+                            <div className="w-[40%] pl-5 py-3">
+                                <p className={`${latoFontme.className} text-[14px]`}>300</p>
+                            </div>
+                        </div>
 
+                        <div className='relative soldout'>
+                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                                src="/assets/image/b-6.png"
+                                layout="responsive"
+                                width={471}
+                                height={47}
 
-                    <div className="w-[25%] px-5">
-                        <Image className='mx-auto pb-4'
-                            src="/assets/image/work-4.png"
+                                alt="Picture of the author"
+                            />
+                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <Link href='/'>
+                                <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
+                            </Link>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <span className={`${latoFont.className} text-[20px] `}>0.045 ETH</span>
+                                </div>
+                                <div>
+                                    <Image className='mx-auto relative z-10 mt-[-10px] '
+                                        src="/assets/image/bit.png"
 
-                            width={118}
-                            height={118}
+                                        width={63}
+                                        height={25}
 
-                            alt="Picture of the author"
-                        />
-                        <Image className='mx-auto'
-                            src="/assets/image/04.png"
+                                        alt="Picture of the author"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                            width={193}
-                            height={47}
+                    <div className="w-[14%]">
+                        <div className="flex item-center">
+                            <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
+                                <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
+                            </div>
+                            <div className="w-[40%] pl-5 py-3">
+                                <p className={`${latoFontme.className} text-[14px]`}>300</p>
+                            </div>
+                        </div>
 
-                            alt="Picture of the author"
-                        />
-                        <h5 className={`${lexendDeca.className} text-[32px] text-center pt-3`}>Withdraw Profit   </h5>
-                        <p className='text-[24px] text-center py-4'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly </p>
+                        <div className='relative soldout'>
+                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                                src="/assets/image/b-7.png"
+                                layout="responsive"
+                                width={471}
+                                height={47}
 
+                                alt="Picture of the author"
+                            />
+                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <Link href='/'>
+                                <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
+                            </Link>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <span className={`${latoFont.className} text-[20px] `}>0.045 ETH</span>
+                                </div>
+                                <div>
+                                    <Image className='mx-auto relative z-10 mt-[-10px] '
+                                        src="/assets/image/bit.png"
+
+                                        width={63}
+                                        height={25}
+
+                                        alt="Picture of the author"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
