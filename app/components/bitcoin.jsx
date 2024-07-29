@@ -44,7 +44,8 @@ function Bitcoin() {
                         </div>
 
                         <div className='relative '>
-                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                         <div className='relative '>
+                         <Image className='mx-auto relative z-10 mt-[-10px] '
                                 src="/assets/image/b-1.png"
                                 layout="responsive"
                                 width={471}
@@ -52,7 +53,8 @@ function Bitcoin() {
 
                                 alt="Picture of the author"
                             />
-                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <span className='bg-[#AA0404] soldout-tag hidden h-[35px] text-[22px] font-bold absolute z-50 top-0 bottom-0 m-auto text-center left-0 right-0'>Sold Out </span>
+                         </div>
                             <Link href='/'>
                                 <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
                             </Link>
@@ -84,7 +86,8 @@ function Bitcoin() {
                         </div>
 
                         <div className='relative soldout'>
-                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                        <div className="relative">
+                        <Image className='mx-auto relative z-10 mt-[-10px] '
                                 src="/assets/image/b-2.png"
                                 layout="responsive"
                                 width={471}
@@ -92,7 +95,8 @@ function Bitcoin() {
 
                                 alt="Picture of the author"
                             />
-                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <span className='bg-[#AA0404] soldout-tag hidden h-[35px] text-[22px] font-bold absolute z-50 top-0 bottom-0 m-auto text-center left-0 right-0'>Sold Out </span>
+                        </div>
                             <Link href='/'>
                                 <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
                             </Link>
@@ -124,7 +128,8 @@ function Bitcoin() {
                         </div>
 
                         <div className='relative soldout'>
-                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                         <div className='relative'>
+                         <Image className='mx-auto relative z-10 mt-[-10px] '
                                 src="/assets/image/b-3.png"
                                 layout="responsive"
                                 width={471}
@@ -132,7 +137,8 @@ function Bitcoin() {
 
                                 alt="Picture of the author"
                             />
-                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <span className='bg-[#AA0404] soldout-tag hidden h-[35px] text-[22px] font-bold absolute z-50 top-0 bottom-0 m-auto text-center left-0 right-0'>Sold Out </span>
+                         </div>
                             <Link href='/'>
                                 <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
                             </Link>
@@ -165,7 +171,8 @@ function Bitcoin() {
                         </div>
 
                         <div className='relative '>
-                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                            <div className='relative '>
+                                <Image className='mx-auto relative z-10 mt-[-10px] '
                                 src="/assets/image/b-4.png"
                                 layout="responsive"
                                 width={471}
@@ -173,7 +180,8 @@ function Bitcoin() {
 
                                 alt="Picture of the author"
                             />
-                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <span className='bg-[#AA0404] soldout-tag hidden h-[35px] text-[22px] font-bold absolute z-50 top-0 bottom-0 m-auto text-center left-0 right-0'>Sold Out </span>
+                            </div>
                             <Link href='/'>
                                 <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
                             </Link>
@@ -214,7 +222,7 @@ function Bitcoin() {
 
                                 alt="Picture of the author"
                             />
-                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <span className='bg-[#AA0404] soldout-tag hidden h-[35px] text-[22px] font-bold absolute z-50 top-0 bottom-0 m-auto text-center left-0 right-0'>Sold Out </span>
                             <Link href='/'>
                                 <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
                             </Link>
@@ -247,6 +255,8 @@ function Bitcoin() {
                         </div>
 
                         <div className='relative soldout'>
+                            <div className='relative'>
+                            <div className='relative'>
                             <Image className='mx-auto relative z-10 mt-[-10px] '
                                 src="/assets/image/b-6.png"
                                 layout="responsive"
@@ -255,7 +265,9 @@ function Bitcoin() {
 
                                 alt="Picture of the author"
                             />
-                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <span className='bg-[#AA0404] soldout-tag hidden h-[35px] text-[22px] font-bold absolute z-50 top-0 bottom-0 m-auto text-center left-0 right-0'>Sold Out </span>
+                            </div>
+                            </div>
                             <Link href='/'>
                                 <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
                             </Link>
@@ -288,7 +300,8 @@ function Bitcoin() {
                         </div>
 
                         <div className='relative soldout'>
-                            <Image className='mx-auto relative z-10 mt-[-10px] '
+                           <div className='relative'>
+                           <Image className='mx-auto relative z-10 mt-[-10px] '
                                 src="/assets/image/b-7.png"
                                 layout="responsive"
                                 width={471}
@@ -296,7 +309,8 @@ function Bitcoin() {
 
                                 alt="Picture of the author"
                             />
-                            <span className='bg-[#AA0404] soldout-tag hidden text-[22px] font-bold absolute z-50 top-[100px] text-center left-0 right-0'>Sold Out </span>
+                            <span className='bg-[#AA0404] soldout-tag hidden h-[35px] text-[22px] font-bold absolute z-50 top-0 bottom-0 m-auto text-center left-0 right-0'>Sold Out </span>
+                           </div>
                             <Link href='/'>
                                 <h3 className={`${latoFont.className} text-[20px] text-[#A5A6DB] py-2`}>Arcade Land </h3>
                             </Link>
