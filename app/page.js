@@ -9,6 +9,7 @@ import Bitcoin from "./components/bitcoin";
 import Mining from "./components/mining";
 import Roadmap from "./components/roadmap";
 import Subscribe from "./components/subscribe";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
 <Mining></Mining>
 <Roadmap></Roadmap>
 <Subscribe></Subscribe>
+<Footer></Footer>
 
 
 </>

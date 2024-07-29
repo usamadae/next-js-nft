@@ -16,12 +16,19 @@
   }
 }
 
+
 body {
   color: rgb(var(--foreground-rgb));
   background: #0B0B0B;
+
 }
 
-h1 , h2 , h3 , h4 , h5 , h6 , p , a , ul , li {
+
+
+
+
+
+h1 , h2 , h3 , h4 , h5 , h6 , p , a , ul , li , span {
   color: white;
 }
 
