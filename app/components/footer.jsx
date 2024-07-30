@@ -93,21 +93,21 @@ function Footer() {
                                     </li>
                                     <li className='mb-5'>
                                         <Link className='text-[22px] capitalize font-normal' href='/'>
-                                        How it Works
+                                     About
                                         </Link>
                                     </li>
                                     <li className='mb-5'>
                                         <Link className='text-[22px] capitalize font-normal' href='/'>
-                                        Roadmap
+                                        Mining
                                         </Link>
                                     </li>
                                     <li className='mb-5'>
                                         <Link className='text-[22px] capitalize font-normal' href='/'>
-                                        Team
+                                        Admin
                                         </Link>
                                     </li>
                                     <li className='mb-5'>
-                                        <Link className='text-[22px] capitalize font-normal' href='/'>
+                                        <Link className='text-[22px] capitalize font-normal' href='/faq'>
                                         FAQ
                                         </Link>
                                     </li>

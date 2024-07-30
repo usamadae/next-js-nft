@@ -72,8 +72,8 @@ function Faqacordian() {
             {faqData.map((section, index) => (
               <div key={index}>
                 <div className="flex justify-between items-center cursor-pointer" onClick={() => toggleSection(index)}>
-                  <h3 className=" text-[26px] capitalize font-medium dark:text-white leading-5 text-gray-800">{section.title}</h3>
-                  <button aria-label="toggle" className="text-gray-800 dark:text-white cursor-pointer bg-transparent focus:outline-none">
+                  <h3 className=" text-[26px] capitalize font-medium text-white leading-5">{section.title}</h3>
+                  <button aria-label="toggle" className="text-white cursor-pointer bg-transparent focus:outline-none">
                     
                     <svg width="25" height="25" viewBox="0 0 46 25" className={`transition-transform duration-700	${openSections[index] ? 'rotate-180' : ''} transition-all `} fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M23.9037 24.1073L44.7642 0.99995L2.0002 0.999954L23.9037 24.1073Z" fill="#0D6EFD" stroke="#863AF0" />
