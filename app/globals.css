@@ -103,6 +103,30 @@ background-position: bottom right;
   background-repeat:no-repeat ;
 }
 
+.about-arrow::before{
+content: '';
+background-image: url('/assets/image/about-arrow-right.png');
+height: 100px;
+    width: 100px;
+    top: 100px;
+    position: absolute;
+    right: -42px;
+    background-size: contain;
+}
+
+.about-arrow::after{
+  content: '';
+  background-image: url('/assets/image/about-arrow-left.png');
+  height: 100px;
+  width: 100px;
+  bottom: 100px;
+  position: absolute;
+  right: -59px;
+  background-size: contain;
+  }
+  
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
