@@ -218,14 +218,14 @@ function About() {
             </tr>
         </thead>
         <tbody>
-            <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+            <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd]  cursor-pointer">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -239,13 +239,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -259,13 +259,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -279,13 +279,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -299,13 +299,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -319,13 +319,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -339,13 +339,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -359,13 +359,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -379,13 +379,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -399,13 +399,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -419,13 +419,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -439,13 +439,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -459,13 +459,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -479,13 +479,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
@@ -499,13 +499,13 @@ function About() {
                
             </tr>
             <tr class="bg-[#101D4F] border-b  hover:bg-[#0d6efd] cursor-pointer">
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 8330
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
                 0PH/s
                 </td>
-                <td class="px-6 py-10 text-gray-900 font-semibold text-[20px] whitespace-nowrap dark:text-white text-center">
+                <td class="px-6 py-10 font-semibold text-[20px] whitespace-nowrap text-white text-center">
               
               <span className='flex justify-center items-center gap-3'>
                <Linksvg></Linksvg>
