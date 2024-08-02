@@ -10,7 +10,7 @@ function Header() {
   const navItems = [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
-    { path: '/pages', label: 'Mining' },
+    { path: '/mining', label: 'Mining' },
     { path: '/admin', label: 'Admin' },
     { path: '/faq', label: 'FAQ' },
   ];

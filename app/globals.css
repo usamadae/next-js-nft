@@ -125,7 +125,9 @@ height: 100px;
   background-size: contain;
   }
   
-
+.nav_footer li a:hover{
+  color: #0D6EFD;
+}
 
 @layer utilities {
   .text-balance {

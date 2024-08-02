@@ -61,7 +61,7 @@ function Footer() {
 
                             <h5  className={`${latoFont.className} mt-10 text-[28px] text-[#0D6EFD] font-black`}>Support</h5>
 
-                            <nav>
+                            <nav className='nav_footer'>
                                 <ul>
                                     <li className='my-5'>
                                         <Link className='text-[22px] capitalize font-normal' href='/'>
@@ -84,7 +84,7 @@ function Footer() {
                         </div>
                         <div className="w-[25%]">
                         <h5  className={`${latoFont.className} mt-10 text-[28px] text-[#0D6EFD] font-black`}>Quick Links</h5>
-                        <nav>
+                        <nav className='nav_footer'>
                                 <ul>
                                     <li className='my-5'>
                                         <Link className='text-[22px] capitalize font-normal' href='/'>
@@ -92,12 +92,12 @@ function Footer() {
                                         </Link>
                                     </li>
                                     <li className='mb-5'>
-                                        <Link className='text-[22px] capitalize font-normal' href='/'>
+                                        <Link className='text-[22px] capitalize font-normal' href='/about'>
                                      About
                                         </Link>
                                     </li>
                                     <li className='mb-5'>
-                                        <Link className='text-[22px] capitalize font-normal' href='/'>
+                                        <Link className='text-[22px] capitalize font-normal' href='/mining'>
                                         Mining
                                         </Link>
                                     </li>
