@@ -20,6 +20,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #0B0B0B;
+  overflow-x: hidden;
 
 }
 
@@ -128,7 +129,21 @@ height: 100px;
 .nav_footer li a:hover{
   color: #0D6EFD;
 }
+.google_transte select {
+  background-color: transparent !important;
+  outline: none;
+  border: none;
+}
 
+.google_transte option {
+  background-color: #0b0b0b;
+  outline: none;
+  border: none;
+}
+
+.skiptranslate {
+  visibility: hidden !important;
+} 
 @layer utilities {
   .text-balance {
     text-wrap: balance;

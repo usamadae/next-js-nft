@@ -1,69 +1,66 @@
 "use client";
-
-import { useEffect, useState } from "react";
-import { SelectPicker } from "rsuite";
-import { getCookie, hasCookie, setCookie } from 'cookies-next';
+import Script from "next/script";
+import React from "react";
+import nookies from 'nookies';
 
 const languages = [
-    { label: 'English', value: '/auto/en' },
-    { label: 'Русский', value: '/auto/ru' },
-    { label: 'Polski', value: '/auto/pl' }
+  { label: "English", value: "en", src: "https://flagcdn.com/h60/us.png" },
+  { label: "Spanish", value: "es", src: "https://flagcdn.com/h60/es.png" },
+  // Add additional languages as needed
 ];
 
-const GoogleTranslate = () => {
-    const [selected, setSelected] = useState('/auto/en');
+const includedLanguages = languages.map(lang => lang.value).join(",");
 
-    useEffect(() => {
-        // Load the Google Translate script
-        const addScript = document.createElement('script');
-        addScript.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-        document.body.appendChild(addScript);
-        
-        // Check for existing translation cookie
-        if (hasCookie('googtrans')) {
-            setSelected(getCookie('googtrans'));
-        }
-        
-        // Define the Google Translate init function
-        window.googleTranslateElementInit = () => {
-            if (window.google && window.google.translate) {
-                new window.google.translate.TranslateElement({
-                    pageLanguage: 'auto',
-                    autoDisplay: false,
-                    includedLanguages: "ru,en,pl",
-                    layout: window.google.translate.TranslateElement.InlineLayout.SIMPLE
-                }, 'google_translate_element');
-            }
-        };
+function googleTranslateElementInit() {
+  new window.google.translate.TranslateElement({
+    pageLanguage: "auto",
+    includedLanguages
+  }, "google_translate_element");
+}
 
-        // Cleanup script on unmount
-        return () => {
-            document.body.removeChild(addScript);
-        };
-    }, []);
+export function GoogleTranslate({ prefLangCookie }) {
+  const [langCookie, setLangCookie] = React.useState(prefLangCookie ? decodeURIComponent(prefLangCookie) : "en");
 
-    const langChange = (value, event) => {
-        event.preventDefault();
-        setCookie('googtrans', value);
-        setSelected(value);
-        window.location.reload();
-    };
+  React.useEffect(() => {
+    window.googleTranslateElementInit = googleTranslateElementInit;
+  }, []);
 
-    return (
-        <>
-            <div id="google_translate_element" style={{ width: 0, height: 0, position: 'absolute', left: '50%', zIndex: -99999 }}></div>
-            <SelectPicker
-                data={languages}
-                style={{ width: 100 }}
-                placement="bottomEnd"
-                cleanable={false}
-                value={selected}
-                searchable={false}
-                onSelect={(value, event) => langChange(value, event)}
-                placeholder="Lang"
-            />
-        </>
-    );
+  const onChange = (value) => {
+    const lang = "/en/" + value;
+    setLangCookie(lang);
+    const element = document.querySelector(".goog-te-combo");
+    if (element) {
+      element.value = value;
+      element.dispatchEvent(new Event("change"));
+    }
+  };
+
+  return (
+    <div>
+      <div id="google_translate_element" style={{ visibility: "hidden", width: "1px", height: "1px" }}></div>
+      <LanguageSelector onChange={onChange} value={langCookie} />
+      <Script
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+        strategy="afterInteractive"
+      />
+    </div>
+  );
+}
+
+function LanguageSelector({ onChange, value }) {
+  const langCookie = value.split("/")[2];
+  return (
+    <select onChange={(e) => onChange(e.target.value)} value={langCookie}>
+      {languages.map((it) => (
+        <option value={it.value} key={it.value}>
+          {it.label}
+        </option>
+      ))}
+    </select>
+  );
+}
+
+export const getPrefLangCookie = () => {
+  const cookies = nookies.get(null);
+  return cookies["googtrans"] ?? "en";
 };
-
-export default GoogleTranslate;
