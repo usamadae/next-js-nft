@@ -33,7 +33,7 @@ const SubscribeForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       
-      <input className='bg-[#29243F] w-[100%] my-5 text-[18px] font-black text-white placeholder:text-white p-5 rounded-lg border-0 outline-none'
+      <input className='bg-[#29243F] w-[100%] my-5 md:text-[18px] text-[14px] font-black text-white placeholder:text-white p-5 rounded-lg border-0 outline-none'
         id="email"
         type="email"
         placeholder='Your Email Adress'
@@ -41,8 +41,8 @@ const SubscribeForm = () => {
         onChange={(e) => setEmail(e.target.value)}
         required
       />
-      <button className='bg-[#0D6EFD] text-white text-[18px] font-black border-[#0D6EFD] text-center flex mx-auto py-5 w-[100%] items-center justify-center rounded-lg hover:bg-transparent hover:border-white border-[1px]' type="submit">Subscribe</button>
-      {status && <p className='text-center text-[#0D6EFD] text-[18px] uppercase mt-5'>{status}</p>}
+      <button className='bg-[#0D6EFD] text-white md:text-[18px] text-[14px] font-black border-[#0D6EFD] text-center flex mx-auto py-5 w-[100%] items-center justify-center rounded-lg hover:bg-transparent hover:border-white border-[1px]' type="submit">Subscribe</button>
+      {status && <p className='text-center text-[#0D6EFD] md:text-[18px] text-[14px] uppercase mt-5'>{status}</p>}
     </form>
   );
 };

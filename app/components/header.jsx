@@ -81,7 +81,7 @@ function Header() {
 
 
         </div>
-        <div ref={ref} className='absolute bg-black p-10 w-[60%] h-screen top-0 right-0 transform transition-transform translate-x-full'>
+        <div ref={ref} className='absolute bg-black p-10 md:w-[60%] w-[80%] h-screen top-0 right-0 transform transition-transform translate-x-full'>
           <div onClick={toggleCart} className='flex justify-end cursor-pointer mb-10'>
             <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="white">
 

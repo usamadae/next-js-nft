@@ -19,21 +19,21 @@ const latoFontme = Lato({ weight: '400', subsets: ['latin'] });
 function Bitcoin() {
     return (
         <>
-            <div className="container mx-auto bg-work py-20">
+            <div className="container mx-auto bg-work lg:py-20 md:py-10 px-5">
                 <div className="flex justify-items-center items-center">
-                    <div className="w-[50%]">
-                        <h4 className={`${bungee.className} text-[72px]`}>NFTs To Mine
-                            <br />
+                    <div className="lg:w-[50%] w-[100%]">
+                        <h4 className={`${bungee.className} lg:text-[72px] md:text-[62px] text-[28px]`}>NFTs To Mine
+                            <br className='md:block hidden' />
                             <span className='custom_color_blue'>
                                 Bitcoins
                             </span></h4>
 
-                        <p className='pt-6 text-[26px]'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document </p>
+                        <p className='pt-6 md:text-[26px] text-[18px]'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document </p>
                     </div>
 
                 </div>
-                <div className="flex justify-items-center gap-7 items-center pt-20">
-                    <div className="w-[14%]">
+                <div className="flex justify-items-center gap-7 items-center pt-20 lg:flex-nowrap flex-wrap">
+                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -75,7 +75,7 @@ function Bitcoin() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[14%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -117,7 +117,7 @@ function Bitcoin() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[14%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -160,7 +160,7 @@ function Bitcoin() {
                         </div>
                     </div>
 
-                    <div className="w-[14%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -203,7 +203,7 @@ function Bitcoin() {
                         </div>
                     </div>
 
-                    <div className="w-[14%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -244,7 +244,7 @@ function Bitcoin() {
                         </div>
                     </div>
 
-                    <div className="w-[14%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -289,7 +289,7 @@ function Bitcoin() {
                         </div>
                     </div>
 
-                    <div className="w-[14%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -334,7 +334,7 @@ function Bitcoin() {
                 </div>
 
                 <Link href="/">
-                            <button className='bg-[#0D6EFD] text-white text-[28px] mt-24 text-center flex mx-auto border my-5 border-[#0D6EFD] px-5 rounded-[8px] py-2 hover:bg-transparent hover:border hover:border-white'>Go To Marketplace  </button>
+                            <button className='bg-[#0D6EFD] text-white md:text-[28px] text-[18px] md:mt-24 mt-10 text-center flex mx-auto border my-5 border-[#0D6EFD] px-5 rounded-[8px] py-2 hover:bg-transparent hover:border hover:border-white'>Go To Marketplace  </button>
                         </Link>
             </div>
         </>

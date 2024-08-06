@@ -13,20 +13,20 @@ const latoFontme = Lato({ weight: '400', subsets: ['latin'] });
 function Roadmap() {
     return (
         <>
-            <div className="container mx-auto bg-work py-20">
+            <div className="container mx-auto bg-work lg:py-20 py-10 px-5">
                 <div className="flex justify-items-center items-center">
-                    <div className="w-[50%]">
-                        <h4 className={`${bungee.className} text-[72px]`}>Our
+                    <div className="lg:w-[50%] w-[100%]">
+                        <h4 className={`${bungee.className} lg:text-[72px] md:text-[62px] text-[28px]`}>Our
                             &nbsp;
                             <span className='custom_color_blue'>
                                 Roadmap
                             </span></h4>
-                        <p className='pt-6 text-[26px]'>In publishing and graphic design, Lorem ipsu placeholder text commonly used to demons </p>
+                        <p className='pt-6 md:text-[26px] text-[18px]'>In publishing and graphic design, Lorem ipsu placeholder text commonly used to demons </p>
 
                     </div>
 
                 </div>
-                <Image className='w-[100%]'
+                <Image className='w-[100%] md:mb-0 mb-10'
                     src="/assets/image/roadmap.png"
                     layout="responsive"
                     width={1000}
@@ -37,9 +37,9 @@ function Roadmap() {
                 <div>
 
                 </div>
-                <div className="flex justify-items-center items-center py-20">
-                    <div className="w-[25%]">
-                        <Image className=''
+                <div className="flex justify-items-center items-center lg:py-20 md:py-10 lg:flex-nowrap flex-wrap lg:gap-0 gap-y-5 md:gap-x-5">
+                    <div className="lg:w-[25%] md:w-[48%]">
+                        <Image className='md:w-auto w-[30%]'
                             src="/assets/image/road-1.png"
                             width={226}
                             height={180}
@@ -47,14 +47,14 @@ function Roadmap() {
                             alt="Picture of the author"
                         />
                         <ul className='list-disc pt-3'>
-                            <li className={`${latoFontme.className} text-[14px] w-[226px]`}>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of </li>
+                            <li className={`${latoFontme.className} text-[14px] lg:w-[226px] md:w-[100%]`}>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of </li>
                         </ul>
 
 
                     </div>
 
-                    <div className="w-[25%]">
-                        <Image className=''
+                    <div className="lg:w-[25%] md:w-[48%]">
+                        <Image className='md:w-auto w-[30%]'
                             src="/assets/image/road-2.png"
                             width={226}
                             height={180}
@@ -62,13 +62,13 @@ function Roadmap() {
                             alt="Picture of the author"
                         />
                         <ul className='list-disc pt-3'>
-                            <li className={`${latoFontme.className} text-[14px] w-[226px]`}>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of </li>
+                            <li className={`${latoFontme.className} text-[14px] lg:w-[226px] md:w-[100%]`}>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of </li>
                         </ul>
 
 
                     </div>
-                    <div className="w-[25%]">
-                        <Image className=''
+                    <div className="lg:w-[25%] md:w-[48%]">
+                        <Image className='md:w-auto w-[30%]'
                             src="/assets/image/road-3.png"
                             width={226}
                             height={180}
@@ -76,13 +76,13 @@ function Roadmap() {
                             alt="Picture of the author"
                         />
                         <ul className='list-disc pt-3'>
-                            <li className={`${latoFontme.className} text-[14px] w-[226px]`}>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of </li>
+                            <li className={`${latoFontme.className} text-[14px] lg:w-[226px] md:w-[100%]`}>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of </li>
                         </ul>
 
 
                     </div>
-                    <div className="w-[25%]">
-                        <Image className=''
+                    <div className="lg:w-[25%] md:w-[48%]">
+                        <Image className='md:w-auto w-[30%]'
                             src="/assets/image/road-4.png"
                             width={226}
                             height={180}
@@ -90,7 +90,7 @@ function Roadmap() {
                             alt="Picture of the author"
                         />
                         <ul className='list-disc pt-3'>
-                            <li className={`${latoFontme.className} text-[14px] w-[226px]`}>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of </li>
+                            <li className={`${latoFontme.className} text-[14px] lg:w-[226px] md:w-[100%]`}>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of </li>
                         </ul>
 
 

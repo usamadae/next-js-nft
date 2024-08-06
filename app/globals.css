@@ -144,6 +144,20 @@ height: 100px;
 .skiptranslate {
   visibility: hidden !important;
 } 
+
+@media only screen and (max-width: 600px) {
+  .custom_color_blue {
+    padding-left: 5px;
+    
+}
+
+div#borderimg_2:before {
+  content:none;
+}
+div#borderimg_1:before {
+  content:none;
+}
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

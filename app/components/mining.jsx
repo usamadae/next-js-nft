@@ -12,33 +12,33 @@ const lexendDeca = Lexend_Deca({
 function Mining() {
     return (
         <>
-            <div className="container mx-auto bg-product py-40">
+            <div className="container mx-auto bg-product lg:py-40 py-10 px-5">
                 <div className="flex justify-items-center items-center">
-                    <div className="w-[50%]">
-                        <h4 className={`${bungee.className} text-[72px]`}>
-                            <span className='custom_color_blue'>
+                    <div className="lg:w-[50%] w-[100%]">
+                        <h4 className={`${bungee.className} lg:text-[72px] md:text-[62px] text-[28px]`}>
+                            <span className='custom_color_blue !p-0'>
                                 Mining
                             </span>
-                            &nbsp; By <br />
+                            &nbsp; By <br className='md:block hidden'/>
                             FarmHash
 
                         </h4>
-                        <p className='pt-6 text-[26px]'>In publishing and graphic design, Lorem ipsu placeholder text commonly used to demons </p>
+                        <p className='pt-6 md:text-[26px] text-[18px]'>In publishing and graphic design, Lorem ipsu placeholder text commonly used to demons </p>
 
 
                     </div>
 
                 </div>
-                <div className="flex justify-items-center items-center max-w-[1000px] mx-auto pt-28 gap-5">
+                <div className="flex justify-items-center items-center max-w-[1000px] mx-auto md:pt-28 pt-10 gap-5">
                     <div className="w-[50%]">
-                        <h5 className='text-center font-bold text-[42px]'>
+                        <h5 className='text-center font-bold lg:text-[42px] md:text-[32px]'>
                             <span className='custom_color_blue'>
                                 Artificial
                             </span> Mining
                         </h5>
                     </div>
                     <div className="w-[50%]">
-                        <h5 className='text-center font-bold text-[42px]'>
+                        <h5 className='text-center font-bold lg:text-[42px] md:text-[32px]'>
                             <span className='custom_color_blue'>
                                 FarmHash
                             </span> Mining
@@ -47,7 +47,7 @@ function Mining() {
 
                 </div>
                 <div className='flex justify-items-center items-center '>
-                    <h6 className='text-[52px] font-black text-center w-[100%] text-[#0D6EFD]'>VS</h6>
+                    <h6 className='lg:text-[52px] md:text-[42px] font-black text-center w-[100%] text-[#0D6EFD]'>VS</h6>
                 </div>
 
                 <div className='max-w-[1000px] mx-auto'>

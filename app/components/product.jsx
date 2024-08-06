@@ -12,22 +12,22 @@ const lexendDeca = Lexend_Deca({
 function Product() {
     return (
         <>
-            <div className="container mx-auto bg-product py-40">
+            <div className="container mx-auto bg-product lg:py-40 py-10 px-5">
                 <div className="flex justify-items-center items-center">
-                    <div className="w-[50%]">
-                        <h4 className={`${bungee.className} text-[72px]`}>Our
+                    <div className="lg:w-[50%] md:w-[100%]">
+                        <h4 className={`${bungee.className} lg:text-[72px] md:text-[62px] text-[28px]`}>Our
                             &nbsp;
                             <span className='custom_color_blue'>
                                 Products
                             </span></h4>
-                        <p className='pt-6 text-[26px]'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document </p>
+                        <p className='pt-6 md:text-[26px] text-[18px'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document </p>
 
 
                     </div>
 
                 </div>
-                <div className="flex justify-items-center items-center pt-20 gap-5">
-                    <div className="w-[33%] p-10 bg-[#0C153B] rounded-[50px]">
+                <div className="flex justify-items-center items-center md:pt-20 pt-10 gap-5 lg:flex-nowrap flex-wrap">
+                    <div className="lg:w-[33%] md:w-[48%] w-[100%] md:p-10 p-5 bg-[#0C153B] rounded-[50px]">
                         <Image className='mx-auto'
                             src="/assets/image/product-1.png"
                             layout="responsive"
@@ -78,7 +78,7 @@ function Product() {
                         <div className="flex justify-between pt-3 pb-5">
                             <div>
                                 <Link href='/'>
-                                    <h4 className='font-extrabold text-[24px]'>
+                                    <h4 className='font-extrabold md:text-[24px] text-[18px]'>
                                         FarmHash Token
                                     </h4>
                                 </Link>
@@ -95,7 +95,7 @@ function Product() {
                             <button className='bg-[#0D6EFD] text-white text-[18px] text-center flex mx-auto border my-5 border-[#0D6EFD] px-5 rounded-[8px] py-2 hover:bg-transparent hover:border hover:border-white'>Place a Bid</button>
                         </Link>
                     </div>
-                    <div className="w-[33%] p-10 bg-[#0C153B] rounded-[50px]">
+                    <div className="lg:w-[33%] md:w-[48%] w-[100%] md:p-10 p-5 bg-[#0C153B] rounded-[50px]">
                         <Image className='mx-auto'
                             src="/assets/image/product-2.png"
                             layout="responsive"
@@ -146,7 +146,7 @@ function Product() {
                         <div className="flex justify-between pt-3 pb-5">
                             <div>
                                 <Link href='/'>
-                                    <h4 className='font-extrabold text-[24px]'>
+                                    <h4 className='font-extrabold md:text-[24px] text-[18px]'>
                                         FarmHash Token
                                     </h4>
                                 </Link>
@@ -164,7 +164,7 @@ function Product() {
                         </Link>
                     </div>
 
-                    <div className="w-[33%] p-10 bg-[#0C153B] rounded-[50px]">
+                    <div className="lg:w-[33%] md:w-[48%] w-[100%] mx-auto md:p-10 p-5 bg-[#0C153B] rounded-[50px]">
                         <Image className='mx-auto'
                             src="/assets/image/product-3.png"
                             layout="responsive"
@@ -215,7 +215,7 @@ function Product() {
                         <div className="flex justify-between pt-3 pb-5">
                             <div>
                                 <Link href='/'>
-                                    <h4 className='font-extrabold text-[24px]'>
+                                    <h4 className='font-extrabold md:text-[24px] text-[18px]'>
                                         FarmHash Token
                                     </h4>
                                 </Link>
