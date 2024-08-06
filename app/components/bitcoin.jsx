@@ -33,7 +33,7 @@ function Bitcoin() {
 
                 </div>
                 <div className="flex justify-items-center gap-7 items-center pt-20 lg:flex-nowrap flex-wrap">
-                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[44%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -75,7 +75,7 @@ function Bitcoin() {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[44%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -117,7 +117,7 @@ function Bitcoin() {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[44%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -160,7 +160,7 @@ function Bitcoin() {
                         </div>
                     </div>
 
-                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[44%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -203,7 +203,7 @@ function Bitcoin() {
                         </div>
                     </div>
 
-                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[44%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -244,7 +244,7 @@ function Bitcoin() {
                         </div>
                     </div>
 
-                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[44%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
@@ -289,7 +289,7 @@ function Bitcoin() {
                         </div>
                     </div>
 
-                    <div className="lg:w-[14%] md:w-[30%] w-[46%]">
+                    <div className="lg:w-[14%] md:w-[30%] w-[44%]">
                         <div className="flex item-center">
                             <div className="w-[60%] p-3 bg-[#A5A6DB]" style={{ clipPath: 'polygon(0 0, 75% 0%, 100% 100%, 0% 100%)' }}>
                                 <p className={`${latoFont.className} text-[18px]`}>12:05:00</p>
