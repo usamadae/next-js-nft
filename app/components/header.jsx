@@ -36,7 +36,7 @@ function Header() {
     <>
       <div className='w-full relative'>
         <div className="container mx-auto flex lg:justify-items-center justify-between items-center px-5 py-5">
-          <div className='width-[20%]'>
+          <div className='width-[20%] md:pr-0 pr-5'>
             <Link href="/">
               <Image
                 src="/assets/image/logo.png"
