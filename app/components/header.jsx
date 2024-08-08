@@ -67,8 +67,8 @@ function Header() {
                 Get Started
               </button>
             </Link>
-            <div onClick={toggleCart} className='cursor-pointer lg:hidden block'>
-              <svg width="20px" height="20px" viewBox="0 -1 20 20" version="1.1">
+            <div onClick={toggleCart} className='cursor-pointer lg:hidden flex justify-end'>
+              <svg width="25px" height="25px" viewBox="0 -1 20 20" version="1.1">
                 <defs></defs>
                 <g stroke="none" strokeWidth="1" fill="white" fillRule="evenodd">
                   <g transform="translate(-210.000000, -887.000000)" fill="white">
