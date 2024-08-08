@@ -18,7 +18,7 @@ function Hero() {
                         </h1>
                         <p className='pt-6 md:text-[26px] text-[18px]'>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document </p>
                         <div className='pt-10'>
-                            <Link href="/">
+                            <Link href="/about">
                                 <button className='bg-[#0D6EFD] text-white md:text-[26px] text-[18px] mr-4 px-5 rounded-[8px] py-2 bg-transparent border hover:bg-[#0D6EFD] hover:border-[#0D6EFD]'>About Project </button>
                             </Link>
                             <Link href="/">

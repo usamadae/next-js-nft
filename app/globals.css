@@ -146,6 +146,33 @@ height: 100px;
 } 
 
 @media only screen and (max-width: 600px) {
+
+  .faq_svg{
+    width: 20px;
+  }
+  .about-arrow::after {
+    content: '';
+    background-image: url(/assets/image/about-arrow-left.png);
+    height: 100px;
+    width: 100px;
+    bottom: -42px;
+    position: absolute;
+    right: 42px;
+    background-size: contain;
+    transform: rotate(90deg);
+}
+  .about-arrow::before {
+    content: '';
+    background-image: url(/assets/image/about-arrow-right.png);
+    height: 100px;
+    width: 100px;
+    top: auto;
+    position: absolute;
+    right: auto;
+    background-size: contain;
+    bottom: -42px;
+    transform: rotate(90deg);
+}
   .custom_color_blue {
     padding-left: 5px;
     
