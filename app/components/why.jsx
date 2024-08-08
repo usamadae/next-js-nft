@@ -79,7 +79,7 @@ function Why() {
                             <p className='md:text-[28px] text-[20px] ps-5'>graphic design, Lorem ipsum is a placeholder text </p>
                         </div>
                     </div>
-                    <div className="lg:w-[50%] md:w-[100%]">
+                    <div className="lg:w-[50%] w-[100%]">
                         <Image className='mx-auto lg:!w-[100%] md:!w-[80%] mt-10 lg:mt-0'
                             src="/assets/image/why-bg.png"
                             layout="responsive"
